@@ -14,3 +14,18 @@ pp my_string
 #their_name = gets.chomp
 
 #puts "Hello, " + their_name + "!"
+first_name = "ian"
+
+def say_hello(name)
+  "Hello, #{name}"
+end
+class UserProfile
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  def greeting
+    "My name is #{name} and I'm #{age} years old"
+  end
+end
